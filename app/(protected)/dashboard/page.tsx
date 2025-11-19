@@ -156,7 +156,7 @@ export default function DashboardPage() {
               </div>
 
               <div className="flex items-start gap-6">
-                <div className="w-24 h-24 rounded-2xl bg-primary flex items-center justify-center text-4xl font-bold text-primary-foreground">
+                <div className="w-24 h-24 rounded-2xl bg-primary capitalize flex items-center justify-center text-4xl font-bold text-primary-foreground">
                   {user.name.charAt(0)}
                 </div>
                 <div className="flex-1 grid gap-4 sm:grid-cols-2">

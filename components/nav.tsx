@@ -25,7 +25,7 @@ function Navbar() {
                 <p className="text-xs text-muted-foreground">Dashboard</p>
               </div>
             </div>
-            <div className="flex items-center gap-3">
+            <div className="flex items-center gap-3 mr-10 2xl:mr-0">
               <ThemeToggle />
               <Button variant="ghost" size="icon" className="rounded-full">
                 <BellIcon className="w-5 h-5" />
