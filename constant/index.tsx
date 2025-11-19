@@ -12,5 +12,5 @@ import { Activity, StatCard } from "@/types"
     { id: '2', type: 'user', message: 'New team member joined your workspace', timestamp: '5 hours ago', icon: 'user' },
     { id: '3', type: 'settings', message: 'Updated account security settings', timestamp: '1 day ago', icon: 'settings' },
     { id: '4', type: 'user', message: '3 new users signed up for your service', timestamp: '2 days ago', icon: 'user' },
-    { id: '2', type: 'user', message: 'New team member joined your workspace', timestamp: '5 hours ago', icon: 'user' },
+    { id: '5', type: 'user', message: 'New team member joined your workspace', timestamp: '5 hours ago', icon: 'user' },
   ]
