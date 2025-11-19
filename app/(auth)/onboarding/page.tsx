@@ -177,7 +177,6 @@ export default function OnboardingPage() {
           </p>
         </div>
 
-        {/* Step 1 */}
         {step === 1 && (
           <div className="space-y-4">
             <div className="space-y-2">
@@ -214,7 +213,6 @@ export default function OnboardingPage() {
           </div>
         )}
 
-        {/* Step 2 */}
         {step === 2 && (
           <div className="space-y-4">
             <div className="space-y-2">
@@ -258,7 +256,6 @@ export default function OnboardingPage() {
           </div>
         )}
 
-        {/* Step 3 */}
         {step === 3 && (
           <div className="space-y-4">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-3">

@@ -16,10 +16,9 @@ export default function ForgotPasswordPage() {
     e.preventDefault()
     setIsSubmitting(true)
 
-    // Simulate API call
     await new Promise(resolve => setTimeout(resolve, 1500))
 
-    // Store reset token (mock)
+    // Store reset token (this is a mock reset)
     const resetToken = Math.random().toString(36).substring(7)
     localStorage.setItem('resetToken', resetToken)
     localStorage.setItem('resetEmail', email)
