@@ -121,7 +121,7 @@ export default function SignupPage() {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-4">
+        <form onSubmit={handleSubmit} className="space-y-4 max-w-[450px]:mt-3">
           <div className="space-y-2">
             <Label htmlFor="name">Full Name</Label>
             <Input
