@@ -12,7 +12,7 @@ A modern authentication and onboarding flow built with Next.js 16, React 19, Typ
 - **Protected Routes** - Dashboard requires authentication
 
 ### Onboarding
-Multi-step wizard with manual validation:
+Multi-step form with manual validation:
 1. Company details (name and role)
 2. Team information (size and industry)
 3. Goal selection (multi-select checkboxes)
