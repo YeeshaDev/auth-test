@@ -110,7 +110,7 @@ export default function SignupPage() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background p-4">
+    <div className="min-h-screen flex items-center justify-center bg-background p-4 mt-7 md:mt-0">
       <Card className="max-w-md w-full p-8 space-y-6">
         <div className="space-y-2 text-center">
           <h1 className="text-3xl font-bold text-balance">
@@ -121,7 +121,7 @@ export default function SignupPage() {
           </p>
         </div>
 
-        <form onSubmit={handleSubmit} className="space-y-4 max-w-[450px]:mt-3">
+        <form onSubmit={handleSubmit} className="space-y-4">
           <div className="space-y-2">
             <Label htmlFor="name">Full Name</Label>
             <Input
